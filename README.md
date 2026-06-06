@@ -1,4 +1,4 @@
-# Open-World-Fraud-Behaviour-Detection-in-Banking
+# Open World Fraud Behaviour Detection in Banking
 ## Overview
 
 Financial fraud is constantly evolving, making it difficult for traditional fraud detection systems to identify previously unseen fraudulent activities. Most machine learning models operate under a closed-world assumption, where all classes encountered during testing are already known during training. However, real-world banking systems face emerging fraud patterns that may not exist in historical data.
@@ -112,6 +112,8 @@ The project uses the publicly available Credit Card Fraud Detection Dataset, whi
 - AUROC for Unknown Detection
 
 ---
+## Getting Started
+
 ### Dataset Setup
 
 1. Download the **Credit Card Fraud Detection Dataset** (`creditcard.csv`) from Kaggle.
@@ -125,9 +127,9 @@ data = pd.read_csv('/content/drive/MyDrive/Minor-2/creditcard.csv')
 ```
 
 Replace the above path with the location where you have stored the dataset.
-```
+
 > **Note:** The notebook currently uses the author's Google Drive path. Users should modify the dataset path according to their own directory structure before running the notebook.
-```
+
 ### Running the Notebook
 
 1. Open the notebook in Google Colab.
@@ -156,6 +158,10 @@ pip install numpy pandas matplotlib scikit-learn xgboost tensorflow keras imbala
 ```
 
 Most of these libraries are pre-installed in Google Colab.
+
+## Results
+
+The proposed framework successfully combines novelty detection and supervised classification to identify both known and previously unseen fraud behaviours. Performance was evaluated under multiple open-world scenarios with 25%, 50%, and 75% unknown fraud clusters.
 
 ## Limitations
 
