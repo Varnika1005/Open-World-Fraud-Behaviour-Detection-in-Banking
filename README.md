@@ -22,7 +22,7 @@ The project uses the publicly available Credit Card Fraud Detection Dataset, whi
 - Fraudulent transactions
 - Highly imbalanced class distribution
 
-## Dataset Features:
+### Dataset Features:
 
 - PCA-transformed features (V1–V28)
 - Transaction Amount
@@ -161,7 +161,7 @@ Most of these libraries are pre-installed in Google Colab.
 
 ## Results
 
-The proposed framework successfully combines novelty detection and supervised classification to identify both known and previously unseen fraud behaviours. Performance was evaluated under multiple open-world scenarios with 25%, 50%, and 75% unknown fraud clusters.
+The proposed framework successfully combines novelty detection and supervised classification to detect both known and previously unseen fraud behaviours. Experiments were conducted under 25%, 50%, and 75% unknown fraud scenarios to evaluate robustness in open-world settings. The results demonstrate the framework's ability to maintain effective fraud detection performance even when exposed to previously unseen fraud patterns.
 
 ## Limitations
 
