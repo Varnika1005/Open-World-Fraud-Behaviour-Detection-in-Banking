@@ -127,7 +127,7 @@ data = pd.read_csv('/content/drive/MyDrive/Minor-2/creditcard.csv')
 Replace the above path with the location where you have stored the dataset.
 ```
 > **Note:** The notebook currently uses the author's Google Drive path. Users should modify the dataset path according to their own directory structure before running the notebook.
-
+```
 ### Running the Notebook
 
 1. Open the notebook in Google Colab.
